@@ -1,3 +1,7 @@
+/******************************
+    GENERAL STYLES
+*******************************/
+
 :root {
     --primary-color: #a13353;
     --btn-bg-color: #cccccc;
@@ -18,5 +22,18 @@ body {
 .my-row {
     height: 50%;
     /* ONLY FOR DEBUG */
-    border: 1px dashed green;
+    border: 1px dashed blue;
+}
+
+.white-box {
+    background-color: white;
+    height: 80%
+}
+
+/******************************
+    UTILITIES
+*******************************/
+
+.bord-rad {
+    border-radius: 12px;
 }
