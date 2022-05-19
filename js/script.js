@@ -15,7 +15,7 @@ let km = parseInt(document.querySelector("[name='userAge']"));
 let price = parseFloat(pricePerkm * km);
 
 const generateTicket = document.getElementById("generateTicket");
-generateTicket.addEventListener("click", function (){
+generateTicket.addEventListener("click", function () {
     console.log(finalPrice.value, inputName.value);
 });
 
