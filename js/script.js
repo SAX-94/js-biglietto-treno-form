@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 // VARIABLES
 
 const pricePerkm = 0.21;
@@ -8,6 +10,7 @@ let discount;
 
 let age = parseInt(prompt("Quanti anni hai?"));
 let km = parseInt(prompt("Quanti km devi percorrere?"));
+// @ts-ignore
 let price = parseFloat(pricePerkm * km);
 
 // CONDITIONS FOR APPLYING THE DISCOUNT
@@ -21,4 +24,5 @@ if (age < 18) {
 }
 
 // finalPrice VALUE
+
 let finalPrice = parseFloat(price * discount).toFixed(2);
