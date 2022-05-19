@@ -14,6 +14,11 @@ let km = parseInt(document.querySelector("[name='userAge']"));
 // @ts-ignore
 let price = parseFloat(pricePerkm * km);
 
+const generateTicket = document.getElementById("generateTicket");
+generateTicket.addEventListener("click", function (){
+    console.log(finalPrice.value, inputName.value);
+});
+
 // CONDITIONS FOR APPLYING THE DISCOUNT
 
 if (age < 18) {
@@ -31,3 +36,4 @@ let finalPrice = parseFloat(price * discount).toFixed(2);
 // VALUES THAT MUST BE TRANSFERRED TO HTML
 
 document.getElementById("passengerName").innerHTML = inputName;
+document.getElementById("ticketPrice").innerHTML = finalPrice;
