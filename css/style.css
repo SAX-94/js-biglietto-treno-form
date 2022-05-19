@@ -1,4 +1,11 @@
+:root {
+    --primary-color: #a12d50;
+    --btn-bg-color: #cccccc;
+    --btn-border: #808080;
+    --btn-active-border: #cd9255;    
+    --pass-detail-gray: #808080;
+}
 .container {
-    background-color: #a12d50;
+    background-color: var(--primary-color);
     min-height: 500px;
 }
