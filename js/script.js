@@ -27,3 +27,7 @@ if (age < 18) {
 // finalPrice VALUE
 
 let finalPrice = parseFloat(price * discount).toFixed(2);
+
+// VALUES THAT MUST BE TRANSFERRED TO HTML
+
+document.getElementById("passengerName").innerHTML = inputName;

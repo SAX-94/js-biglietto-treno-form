@@ -56,6 +56,17 @@ button:focus {
     border-color: var(--btn-active-border);
 }
 
+.your-ticket {
+    height: 80%;
+    border-top: 1px solid var(--pass-detail-gray);
+    border-bottom: 1px solid var(--pass-detail-gray);
+    border-left: 1px solid var(--pass-detail-gray);
+}
+
+.passenger-name {
+    background-color: var(--pass-detail-gray);
+}
+
 /******************************
     UTILITIES
 *******************************/

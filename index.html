@@ -11,6 +11,7 @@
 
 <body>
     <div class="container p-3">
+        <!-- FIRST ROW -->
         <div class="my-row d-flex flex-column">
             <h2 class="text-center text-white fw-bold">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
             <!-- UPPER ZONE OF THE FIRST WHITE BOX WITH INPUTS -->
@@ -32,14 +33,29 @@
                 </div>
                 <!-- LOWER ZONE OF THE FIRST WHITE BOX WITH BUTTONS -->
                 <div class="d-flex justify-content-center">
-                    <button class="mx-3">Genera</button>
+                    <button class="mx-3" id="generateTicket">Genera</button>
                     <button class="mx-3">Annulla</button>
                 </div>
             </div>
-        </div>        
+        </div>
+        <!-- SECOND ROW -->
         <div class="my-row">
             <h2 class="text-center text-white fw-bold">IL TUO BIGLIETTO</h2>
-            <div class="white-box p-3"></div>
+            <!-- SECOND WHITE BOX -->
+            <div class="white-box p-3 d-flex flex-column">
+                <h4 class="fw-bold">DETTAGLIO PASSEGGERI</h4>
+                <div class="your-ticket d-flex">
+                    <div class="passenger-name p-3">
+                        <h5 class="fw-bold p-3">NOME PASSEGGERO</h5>
+                        <span class="fw-bold" id="passengerName"></span>
+                    </div>
+                    <div class="ticket-details p-3 d-flex flex-column align-content-around">
+                        <h5 class="fw-bold">Costo biglietto</h5>
+                        <div  class="fw-bold"><span id="ticketPrice"></span> €</div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
     <!-- <script src="js/script.js"></script> -->
