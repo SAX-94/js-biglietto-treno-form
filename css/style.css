@@ -21,8 +21,6 @@ body {
 
 .my-row {
     height: 50%;
-    /* ONLY FOR DEBUG */
-    border: 1px dashed blue;
 }
 
 .white-box {
