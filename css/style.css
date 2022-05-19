@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #a12d50;
+    --primary-color: #a13353;
     --btn-bg-color: #cccccc;
-    --btn-border: #808080;
-    --btn-active-border: #cd9255;    
-    --pass-detail-gray: #808080;
+    --btn-border: #828282;
+    --btn-active-border: #d49351;    
+    --pass-detail-gray: #818181;
 }
 
 body {
@@ -12,5 +12,11 @@ body {
 
 .container {
     background-color: var(--primary-color);
-    min-height: 500px;
+    height: 85vh;
+}
+
+.my-row {
+    height: 50%;
+    /* ONLY FOR DEBUG */
+    border: 1px dashed green;
 }
