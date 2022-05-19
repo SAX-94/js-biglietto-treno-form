@@ -30,10 +30,27 @@ body {
     height: 80%
 }
 
+.user-data-zone {
+    height: 50%;
+}
+
+.user-data {
+    flex-basis: 100% / 3;
+}
+
+.user-data > h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.user-data > input {
+    border: 2px solid var(--primary-color);
+}
+
 /******************************
     UTILITIES
 *******************************/
 
 .bord-rad {
-    border-radius: 12px;
+    border-radius: 8px;
 }
