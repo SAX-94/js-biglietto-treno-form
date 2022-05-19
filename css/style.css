@@ -5,6 +5,11 @@
     --btn-active-border: #cd9255;    
     --pass-detail-gray: #808080;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     background-color: var(--primary-color);
     min-height: 500px;
