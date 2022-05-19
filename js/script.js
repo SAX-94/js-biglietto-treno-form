@@ -8,8 +8,9 @@ const elderDiscount = 0.6;
 const noDiscount = 1;
 let discount;
 
-let age = parseInt(prompt("Quanti anni hai?"));
-let km = parseInt(prompt("Quanti km devi percorrere?"));
+const inputName = document.querySelector("[name='userName']");
+let age = parseInt(document.querySelector("[name='userDistance']"));
+let km = parseInt(document.querySelector("[name='userAge']"));
 // @ts-ignore
 let price = parseFloat(pricePerkm * km);
 
