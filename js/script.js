@@ -8,9 +8,9 @@ const elderDiscount = 0.6;
 const noDiscount = 1;
 let discount;
 
-const inputName = document.querySelector("[name='userName']");
-let age = document.querySelector("[name='userDistance']");
-let km = document.querySelector("[name='userAge']");
+const inputName = document.querySelector("[name='userName']").value;
+let age = parseInt(document.querySelector("[name='userDistance']").value);
+let km = parseInt(document.querySelector("[name='userAge']").value);
 // @ts-ignore
 let price = parseFloat(pricePerkm * km);
 
