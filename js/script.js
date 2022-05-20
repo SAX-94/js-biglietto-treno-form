@@ -16,7 +16,7 @@ let price = parseFloat(pricePerkm * km);
 
 const generateTicket = document.getElementById("generateTicket");
 generateTicket.addEventListener("click", function () {
-    console.log(finalPrice.value, inputName.value);
+    console.log(finalPrice.value, price.value, inputName.value, age.value, km.value);
 });
 
 // CONDITIONS FOR APPLYING THE DISCOUNT
